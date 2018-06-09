@@ -1,0 +1,28 @@
+
+<ion-header>
+    <ion-navbar>
+      <ion-title>
+       Home
+      </ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content padding   style="padding:5;">
+      
+      <ion-list text-center>
+    
+              <ion-item>
+                  <ion-label><ion-icon ios="ios-contact" md="md-contact"></ion-icon></ion-label>
+                  <ion-input type="text"  [(ngModel)]="FullName"></ion-input>
+              </ion-item>
+          
+              <ion-item>
+                <ion-label><ion-icon ios="ios-lock" md="md-lock"></ion-icon></ion-label>
+                
+                <ion-input type="password" [(ngModel)]="Password"></ion-input>
+              </ion-item>
+
+          <button ion-button full color="primary" (click)="onLoginClick()">Login</button>
+  
+        </ion-list>
+    </ion-content>

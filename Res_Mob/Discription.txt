@@ -1,0 +1,33 @@
+1.ionic start Res_Mob
+2.ionic g page (Login,Sectors,...)
+3.using http:
+from:https://ionicacademy.com/http-calls-ionic/
+or:
+
+4.ionic life cycle:
+https://blog.ionicframework.com/navigating-lifecycle-events/
+
+
+
+
+5.For download pdf:
+https://ionicacademy.com/pdf-files-ionic/
+
+1>ionic cordova plugin add cordova-plugin-file : To view , download
+
+2>ionic cordova plugin add cordova-plugin-file-transfer : To combine , transfer file to our app and read it 
+
+3>ionic cordova plugin add cordova-plugin-document-viewer : To View it
+ 
+4>npm install --save @ionic-native/file @ionic-native/document-viewer @ionic-native/file-transfer
+
+
+6. Publish :
+https://ionicframework.com/docs/v1/guide/publishing.html
+
+First remove console plugin :
+ionic cordova plugin rm cordova-plugin-console
+
+https://support.bluestacks.com/hc/en-us/articles/115003116503-How-can-I-copy-data-From-BlueStacks-3-to-my-PC-
+then:
+ionic cordova build --release android

@@ -1,0 +1,8 @@
+{
+  "name": "Res_Mob",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
