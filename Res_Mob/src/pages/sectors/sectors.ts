@@ -39,7 +39,7 @@ Sectors:Array<any>=[];
    
   }
   ionViewDidLoad() {
-    this.CallerObject = this.httpClient.get('http://researchwebapi.azurewebsites.net/api/sectors');
+    this.CallerObject = this.httpClient.get('https://researchwebapi.azurewebsites.net/api/sectors');
     //https://api.github.com/users
     //http://localhost:51683/api/sectors
     this.CallerObject

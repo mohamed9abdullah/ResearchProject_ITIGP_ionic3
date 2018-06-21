@@ -29,7 +29,7 @@ export class CompaniesPage {
   
   ionViewDidLoad() {
     //debugger;
-    this.CallerObject=this.httpClient.get("http://researchwebapi.azurewebsites.net/Industry_Specifec_Companies?id="+this.Industry["Ind_id"]);
+    this.CallerObject=this.httpClient.get("https://researchwebapi.azurewebsites.net/Industry_Specifec_Companies?id="+this.Industry["Ind_id"]);
     this.CallerObject
     .subscribe(data => {
       console.log('my companes: ', data);

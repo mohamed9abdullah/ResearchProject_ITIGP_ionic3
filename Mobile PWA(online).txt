@@ -1,1 +1,28 @@
 https://pure-spire-76582.herokuapp.com/
+
+
+how?
+https://devdactic.com/deploy-ionic-website-heroku/
+
+for  first time :
+
+git init
+heroku git:remote -a pure-spire-76582
+
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master
+
+
+second time (Now):
+Clone the repository
+Use Git to clone pure-spire-76582's source code to your local machine.
+
+$ heroku git:clone -a pure-spire-76582
+$ cd pure-spire-76582
+Deploy your changes
+Make some changes to the code you just cloned and deploy them to Heroku using Git.
+
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master

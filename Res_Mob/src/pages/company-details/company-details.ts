@@ -37,7 +37,7 @@ export class CompanyDetailsPage {
 
   ionViewDidLoad() {
     //debugger;
-    this.CallerObject=this.httpClient.get("http://researchwebapi.azurewebsites.net/api/reports/"+this.CompanyITem["Comp_id"]);
+    this.CallerObject=this.httpClient.get("https://researchwebapi.azurewebsites.net/api/reports/"+this.CompanyITem["Comp_id"]);
     this.CallerObject
     .subscribe(data => {
       console.log('my Reports: ', data);

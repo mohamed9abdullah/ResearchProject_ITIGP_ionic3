@@ -24,7 +24,7 @@ Industries:Array<any>=[];
   constructor(public navCtrl: NavController, public navParams: NavParams , public httpClient:HttpClient) {
     this.Sector=this.navParams.get("SectorITem");
     
-    this.CallerObject=this.httpClient.get("http://researchwebapi.azurewebsites.net/SectorIndustries?id="+this.Sector["Sec_id"]);
+    this.CallerObject=this.httpClient.get("https://researchwebapi.azurewebsites.net/SectorIndustries?id="+this.Sector["Sec_id"]);
     this.CallerObject
     .subscribe(data => {
       console.log('my industries: ', data);
