@@ -5,10 +5,18 @@ how?
 https://devdactic.com/deploy-ionic-website-heroku/
 
 for  first time :
+1.npm install --save morgan cors express body-parser
+2.make server.js
+3.make Procfile
 
+4.heroku login
+5.hroku create
+
+6.
 git init
-heroku git:remote -a pure-spire-76582
+heroku git:remote -a pure-spire-76582  /*tell your app that remote server is heroku*/
 
+7.
 $ git add .
 $ git commit -am "make it better"
 $ git push heroku master
