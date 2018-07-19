@@ -1,0 +1,27 @@
+PWA:
+https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/
+
+https://ionicframework.com/pwa
+
+
+pwa examples :
+https://www.progressivewebapproom.com/
+
+
+Service Worker:
+
+1.service worker angular 6 (Documentation):
+https://angular.io/guide/service-worker-intro
+
+
+2.service worker angular 6 :
+https://blog.angulartraining.com/how-to-go-offline-with-angular-service-worker-a3cc5dabc4d5
+or
+https://scotch.io/tutorials/how-to-build-progressive-web-apps-with-angular
+
+
+
+3.service worker (native js):
+
+https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker-slides
+
