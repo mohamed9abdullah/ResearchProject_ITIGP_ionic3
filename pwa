@@ -25,3 +25,10 @@ https://scotch.io/tutorials/how-to-build-progressive-web-apps-with-angular
 
 https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker-slides
 
+******************************************************************************************
+disable parameters:
+https://stackoverflow.com/questions/46377565/angular-4-router-how-to-not-display-parameters-in-the-url-bar
+
+
+get them from the another component:
+https://stackoverflow.com/questions/40275862/how-to-get-parameter-on-angular2-route-in-angular-way
