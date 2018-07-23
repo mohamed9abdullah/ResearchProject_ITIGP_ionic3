@@ -1,3 +1,5 @@
+1---
+
 PWA:
 https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/
 
@@ -35,3 +37,19 @@ https://stackoverflow.com/questions/40275862/how-to-get-parameter-on-angular2-ro
 ********************************************************************************************
 Send Parameters between components using services : 
 https://angularfirebase.com/lessons/sharing-data-between-angular-components-four-methods/
+********************************************************************************************
+2---
+Material Design : 
+https://material.angular.io/components/categories
+********************************************************************************************
+3--- Print Document :
+  printDocument(){
+     let printBtn=document.getElementById("clickBtn");
+     printBtn.style.visibility='hidden';
+     window.print();
+     printBtn.style.visibility='visible';
+
+     return false;//to prevent refresh the page 
+  }
+
+
