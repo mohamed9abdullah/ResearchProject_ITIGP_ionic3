@@ -51,5 +51,11 @@ https://material.angular.io/components/categories
 
      return false;//to prevent refresh the page 
   }
+***********************************************************************************************.
+4. Incorrect JS paths when ng build -prod is deployed in a subfolder #1080
+
+
+https://github.com/angular/angular-cli/issues/1080
+
 
 
