@@ -134,7 +134,17 @@ ar-apps-using-protractor-jasmine/
 
 وده فيديو شرح
 https://www.youtube.com/watch?v=LCSwmJwRU1U 
+**************************************************************************************************
 
+15. Smart table:
+
+ https://appdividend.com/2018/05/13/angular-6-smart-table-example/
+
+ there is 2 error  can face any one  who will read this article  in angular 6 :
+
+ you  may facing error with ng2-completer  > install it via
+ npm cache clean --force
+ npm i ng2-completer --save
 
 
 
