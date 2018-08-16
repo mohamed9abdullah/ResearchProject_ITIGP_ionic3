@@ -149,6 +149,21 @@ https://www.youtube.com/watch?v=LCSwmJwRU1U
  you  may facing error with ng2-completer  > install it via
  npm cache clean --force
  npm i ng2-completer --save
+ 
+ for css :
+ :host /deep/ ng2-smart-table thead > tr > th   { 
+    border: 1px solid gray;
+}
+
+
+:host /deep/ ng2-smart-table td  { 
+    border: 1px solid gray;
+}
+
+check :
+https://stackoverflow.com/questions/45893206/how-to-add-custom-css-in-ng2-smart-table
+
+https://rahulrsingh09.github.io/AngularConcepts/host
 
 
 
