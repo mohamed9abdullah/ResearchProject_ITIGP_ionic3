@@ -13,3 +13,11 @@ https://html-color-codes.info/colors-from-image/
 3.Online Css Generator
 https://www.bestcssbuttongenerator.com/   
 http://cssbuttoncreator.com/
+
+
+4.How to disable all div content
+
+.disabledbutton {
+    pointer-events: none;
+    opacity: 0.4;
+}
