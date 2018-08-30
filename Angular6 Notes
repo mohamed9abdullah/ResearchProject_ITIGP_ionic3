@@ -173,8 +173,12 @@ https://stackoverflow.com/questions/48733489/how-can-i-configure-angular-5-to-su
 **************************************************************************************************
 
 17.Using Crypto JS to encrypt localStorage
-https://www.npmjs.com/package/crypto-js
-https://stackoverflow.com/questions/45068925/how-to-use-cryptojs-with-angular-4
+
+Install & Example :https://github.com/brix/crypto-js
+
+Example : https://sirsaula.wordpress.com/2017/08/02/ionic-angular-2-aes-encryption/
+
+
 
 
 
