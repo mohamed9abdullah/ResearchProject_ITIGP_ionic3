@@ -177,6 +177,12 @@ https://stackoverflow.com/questions/48733489/how-can-i-configure-angular-5-to-su
 Install & Example :https://github.com/brix/crypto-js
 
 Example : https://sirsaula.wordpress.com/2017/08/02/ionic-angular-2-aes-encryption/
+***************************************************************************************************
+Node Sass problem solving :
+sudo npm config set unsafe-perm=true
+sudo npm rebuild node-sass --force
+sudo npm install
+***************************************************************************************************
 
 
 
